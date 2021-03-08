@@ -1,1 +1,9 @@
 /node_modules/
+.editconfig
+.htnlhintrc
+.stylelintrc
+.surgeignore
+Makefile
+package.json
+package-lock.json
+README.md
