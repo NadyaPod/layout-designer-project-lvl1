@@ -285,6 +285,10 @@ h3 {
   background-color: var(--light);
 }
 
+.ikea-effect {
+  max-height: 905px;
+}
+
 .content {
   position: relative;
 }
@@ -295,7 +299,7 @@ h3 {
   width: 100%;
   height: 100%;
 
-  background-image: url("/src/images/background.png");
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -356,7 +360,27 @@ h3 {
   padding-left: 10px;
 }
 
+.premature-optimization {
+  max-height: 855px;
+}
+
+.distortion-of-novelty {
+  max-height: 880px;
+}
+
+.hyperbolic-depreciation {
+  max-height: 937px;
+}
+
+.errors-in-planning {
+  max-height: 919px;
+}
+
 /* -------------------------Footer---------------------------------- */
+
+.footer {
+  min-height: 581px;
+}
 
 .footer-wrap {
   display: flex;
