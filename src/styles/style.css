@@ -361,7 +361,7 @@ h3 {
 }
 
 .premature-optimization {
-  max-height: 855px;
+  min-height: 855px;
 }
 
 .distortion-of-novelty {
