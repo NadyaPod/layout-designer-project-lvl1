@@ -96,7 +96,6 @@ h3 {
   position: relative;
 
   width: 100%;
-  min-height: 914px;
 
   background-color: var(--light);
 }
@@ -196,7 +195,9 @@ h3 {
 
 .video {
   margin-top: 30px;
+}
 
+.shadow {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
@@ -268,4 +269,72 @@ h3 {
 
 .card-2 {
   min-height: 348px;
+}
+
+/* ----------------------IKEA Effect------------------------------ */
+
+.ikea-effect {
+  position: relative;
+
+  background-color: var(--light);
+}
+
+.ikea-effect::before {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url("/src/images/background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  opacity: 0.1;
+
+  content: "";
+}
+
+.wrap {
+  display: flex;
+  gap: 30px;
+}
+
+.wrap img {
+  position: relative;
+
+  z-index: 1;
+}
+
+.upper-text {
+  color: var(--opac-dark);
+  font-size: 24px;
+  font-family: Neucha, sans-serif;
+}
+
+.low-text {
+  margin-top: 28px;
+
+  font-size: 34px;
+  font-family: Neucha, sans-serif;
+
+  line-height: 40.8px;
+}
+
+.article-header {
+  margin: 100px 0 20px;
+  padding: 5px 10px;
+
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+
+  font-family: "Open Sans", sans-serif;
+
+  text-transform: uppercase;
+
+  background-color: var(--brown);
+}
+
+.ikea-effect .text-wrap {
+  margin-top: 0;
 }
