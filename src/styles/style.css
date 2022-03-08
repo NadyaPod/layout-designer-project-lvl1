@@ -208,3 +208,64 @@ h3 {
 
   background-color: var(--main-dark);
 }
+
+.nav-container {
+  margin-top: 100px;
+}
+
+.first-row,
+.second-row {
+  display: flex;
+  gap: 30px;
+}
+
+.second-row {
+  margin-top: 20px;
+}
+
+.card {
+  width: 350px;
+  height: 323px;
+
+  background-color: var(--light);
+}
+
+.card h2 {
+  color: var(--white);
+  font-size: 52px;
+}
+
+.second-row .card,
+.first-row .card:not(:first-child) {
+  padding: 20px;
+
+  cursor: pointer;
+}
+
+.first-row .card:first-child {
+  background-color: transparent;
+}
+
+.second-row .card span,
+.first-row .card:not(:first-child) span {
+  color: var(--main-dark);
+  font-size: 64px;
+  font-family: Neucha, sans-serif;
+  line-height: 1;
+}
+
+.card h3 {
+  margin-top: 40px;
+
+  color: var(--main);
+}
+
+.card .text {
+  margin-top: 16px;
+
+  color: var(--dark);
+}
+
+.card-2 {
+  min-height: 348px;
+}
