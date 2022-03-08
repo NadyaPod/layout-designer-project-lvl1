@@ -16,10 +16,10 @@
 <body>
   <div class="wrapper">
     <header class="header background">
-      <div class="container header-container">
-        <div class="header-wrap">
+      <div class="container">
+        <div class="wrap">
           <h1><span class="orange-text">Когнитивные<br>искажения<br></span>в программировании</h1>
-          <img src="./images/main.png" alt="">
+          <img src="./images/main.png" alt="" class="image">
         </div>
 
         <div class="text-wrap">
@@ -52,56 +52,46 @@
                 <h2><span class="orange-text">5 когнитивных искажений</span><br> о существовании которых стоит помнить</h2>
               </div>
 
-              <div class="card">
-                <a href="">
-                  <span>1</span>
-                  <h3>Эффект ИКЕА</h3>
-                  <p class="text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
-                </a>
-              </div>
+              <a href="#ikea-effect" class="card">
+                <span>1</span>
+                <h3>Эффект ИКЕА</h3>
+                <p class="text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
+              </a>
 
-              <div class="card">
-                <a href="">
-                  <span>2</span>
-                  <h3>Преждевременная оптимизация</h3>
-                  <p class="text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
-                </a>
-              </div>
+
+
+              <a href="#premature-optimization" class="card">
+                <span>2</span>
+                <h3>Преждевременная оптимизация</h3>
+                <p class="text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+              </a>
             </div>
 
             <div class="second-row">
-              <div class="card card-2">
-                <a href="">
-                  <span>3</span>
-                  <h3>Искажение новизны</h3>
-                  <p class="text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.
-                  </p>
-                </a>
-              </div>
-
-              <div class="card card-2">
-                <a href="">
-                  <span>4</span>
-                  <h3>Гиперболическое обесценивание</h3>
-                  <p class="text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но
-                    доступную в будущем.</p>
-                </a>
-              </div>
-
-              <div class="card card-2">
-                <a href="">
-                  <span>5</span>
-                  <h3>Ошибка планирования</h3>
-                  <p class="text">Неправильно рассчитывать время необходимое для завершения задачи.</p>
-                </a>
-              </div>
+              <a href="#" class="card card-2">
+                <span>3</span>
+                <h3>Искажение новизны</h3>
+                <p class="text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более
+                  старые.
+                </p>
+              </a>
+              <a href="#" class="card card-2">
+                <span>4</span>
+                <h3>Гиперболическое обесценивание</h3>
+                <p class="text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но
+                  доступную в будущем.</p>
+              </a>
+              <a href="#" class="card card-2">
+                <span>5</span>
+                <h3>Ошибка планирования</h3>
+                <p class="text">Неправильно рассчитывать время необходимое для завершения задачи.</p>
+              </a>
             </div>
           </nav>
         </div>
-
       </section>
 
-      <section class="section ikea-effect" id="ikea-effect">
+      <section class="section content" id="ikea-effect">
         <div class="container">
           <div class="wrap">
             <img src="./images/1.png" alt="" class="shadow">
@@ -118,12 +108,27 @@
             <p class="text">Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.</p>
             <p class="text">Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</p>
           </div>
-
-
         </div>
       </section>
-      <section class="section">
-        <div class="container"></div>
+
+      <section class="section content" id="premature-optimization">
+        <div class="container">
+          <div class="wrap">
+            <img src="./images/2.png" alt="" class="shadow">
+            <div class="section-header">
+              <p class="upper-text">Когнитивные искажения</p>
+              <h2>Преждевременная оптимизация</h2>
+              <p class="low-text">Вы оптимизируете что-то задолго до<br> того, как в этом появляется<br> необходимость.</p>
+            </div>
+          </div>
+
+          <h3 class="article-header">Как проявляется</h3>
+
+          <div class="text-wrap">
+            <p class="text">Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.</p>
+            <p class="text">Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
+          </div>
+        </div>
       </section>
       <section class="section">
         <div class="container"></div>
