@@ -354,3 +354,72 @@ h3 {
 .section:nth-child(5) .text-wrap p:nth-child(2) {
   padding-left: 10px;
 }
+
+/* -------------------------Footer---------------------------------- */
+
+.footer-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 190px;
+
+  margin-bottom: 70px;
+  padding: 0 55px;
+
+  color: var(--white);
+
+  background-color: var(--main-dark);
+}
+
+.right-side .text:first-child {
+  margin-bottom: 10px;
+
+  font-size: 18px;
+}
+
+.right-side .text:last-child {
+  font-size: 12px;
+}
+
+.right-side .text:last-child a {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+.btn-footer {
+  width: 57px;
+  height: 50px;
+
+  background-image: url("../svg/send.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.input-wrap {
+  display: flex;
+}
+
+.email {
+  width: 420px;
+  height: 50px;
+}
+
+.email::placeholder {
+  padding: 15px;
+
+  color: #757575;
+  font-size: 13px;
+}
+
+.link {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.footer-text {
+  margin-top: 16px;
+
+  font-size: 14px;
+  text-align: center;
+}
