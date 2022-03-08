@@ -346,3 +346,11 @@ h3 {
 .section:nth-child(2n + 4) .wrap {
   flex-direction: row-reverse;
 }
+
+.section:nth-child(5) .text-wrap {
+  column-gap: 10px;
+}
+
+.section:nth-child(5) .text-wrap p:nth-child(2) {
+  padding-left: 10px;
+}
